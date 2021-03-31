@@ -1,0 +1,639 @@
+ffmpeg version 4.3.1-2020-11-19-essentials_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/migab/AppData/Local/Temp/KritaFFmpegProgress.YDTymH'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/GuppyBowl.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/migab/AppData/Local/Temp/KritaFFmpegProgress.YDTymH.
+[file @ 000001ffd917e7c0] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame%04d.png.
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0000.png' for reading
+[file @ 000001ffd91c3200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91cb3c0] Statistics: 607683 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0001.png' for reading
+[file @ 000001ffd96848c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684a40] Statistics: 607683 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0002.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9719800] Statistics: 602388 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0003.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91c3280] Statistics: 602688 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0004.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91c3440] Statistics: 602680 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0005.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91c3600] Statistics: 602680 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0006.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91c37c0] Statistics: 604986 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0007.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91c3980] Statistics: 604986 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0008.png' for reading
+[file @ 000001ffd9684940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91c3b40] Statistics: 609353 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame%04d.png':
+  Duration: 00:00:05.12, start: 0.000000, bitrate: N/A
+    Stream #0:0, 9, 1/25: Video: png, 1 reference frame, rgba(pc), 2080x2080 [SAR 11811:11811 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/palette.png.
+[NULL @ 000001ffd91c22c0] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/palette.png' for reading
+[file @ 000001ffd9684d40] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 000001ffd91c22c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000001ffd91c22c0] Before avformat_find_stream_info() pos: 0 bytes read:1009 seeks:0 nb_streams:1
+[png_pipe @ 000001ffd91c22c0] After avformat_find_stream_info() pos: 1009 bytes read:1009 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/GuppyBowl.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/GuppyBowl.gif.
+[file @ 000001ffd91d3e80] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 2456 times
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0009.png' for reading
+[file @ 000001ffd9684780] Setting default whitelist 'file,crypto,data'
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[AVIOContext @ 000001ffdac49d00] Statistics: 615577 bytes read, 0 seeks
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0010.png' for reading
+[file @ 000001ffd9684780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffdac49d00] Statistics: 612651 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0011.png' for reading
+[file @ 000001ffd9719780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 612651 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0012.png' for reading
+[file @ 000001ffd91c3200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 613384 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0013.png' for reading
+[file @ 000001ffd91c3200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 613384 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0014.png' for reading
+[file @ 000001ffd91c3200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 617281 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0015.png' for reading
+[file @ 000001ffd91c3200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 616700 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0016.png' for reading
+[file @ 000001ffd91fc240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 627895 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0017.png' for reading
+[file @ 000001ffd91fc840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 627895 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0018.png' for reading
+[file @ 000001ffd91fcc40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 614008 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0019.png' for reading
+[file @ 000001ffd91fbf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 614008 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0020.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 609412 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0021.png' for reading
+[file @ 000001ffd91fba40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd9684780] Statistics: 607001 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 1 times
+[graph 0 input from stream 0:0 @ 000001ffd91fc640] Setting 'video_size' to value '2080x2080'
+[graph 0 input from stream 0:0 @ 000001ffd91fc640] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001ffd91fc640] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000001ffd91fc640] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000001ffd91fc640] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000001ffd91fc640] w:2080 h:2080 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811
+[graph 0 input from stream 1:0 @ 000001ffd91fbe40] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000001ffd91fbe40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000001ffd91fbe40] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000001ffd91fbe40] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000001ffd91fbe40] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000001ffd91fbe40] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 000001ffd91fd540] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 000001ffd91fc440] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001ffd91fc840] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000001ffd91fba40] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001ffd91fc840] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000001ffd91d69c0] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000001ffe7bf3000] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001ffd91fc440] w:2080 h:2080 fmt:rgba sar:11811/11811 -> w:2080 h:2080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000001ffe7c1a780] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001ffd91fba40] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000001ffd91fc840] [framesync @ 000001ffe7b700c8] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 000001ffd91fc840] [framesync @ 000001ffe7b700c8] Sync level 2
+Output #0, gif, to 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/GuppyBowl.gif':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 2080x2080 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.91.100 gif
+Clipping frame in rate conversion by 0.000008
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0022.png' for reading
+[file @ 000001ffd91fce40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffdb480bc0] Statistics: 616350 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0023.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de8c0] Statistics: 616350 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1752x895 image at pos (148;875) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0024.png' for reading
+[file @ 000001ffd91fcf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de780] Statistics: 619401 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 275x680 image at pos (426;1069) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0025.png' for reading
+[file @ 000001ffd91fc740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de240] Statistics: 619401 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x916 image at pos (145;874) [area:2080x2080]
+frame=    5 fps=0.0 q=-0.0 size=     241kB time=00:00:00.18 bitrate=10972.9kbits/s speed=0.346x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0026.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de600] Statistics: 613976 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0027.png' for reading
+[file @ 000001ffd91fc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de8c0] Statistics: 621114 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x916 image at pos (144;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0028.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97deb40] Statistics: 623700 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0029.png' for reading
+[file @ 000001ffd91fcf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de8c0] Statistics: 623700 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x923 image at pos (144;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0030.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97dee00] Statistics: 613426 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 245x681 image at pos (459;1070) [area:2080x2080]
+frame=   10 fps=9.3 q=-0.0 size=     256kB time=00:00:00.39 bitrate=5377.3kbits/s speed=0.361x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0031.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de240] Statistics: 613426 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1753x923 image at pos (148;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0032.png' for reading
+[file @ 000001ffd91fd240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97dea00] Statistics: 615553 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0033.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97dee00] Statistics: 611176 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1761x908 image at pos (141;879) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0034.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de8c0] Statistics: 613565 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0035.png' for reading
+[file @ 000001ffd91fc040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de0c0] Statistics: 613565 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1773x906 image at pos (141;878) [area:2080x2080]
+frame=   15 fps=9.4 q=-0.0 size=     256kB time=00:00:00.59 bitrate=3554.5kbits/s speed=0.37x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0036.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de0c0] Statistics: 604277 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 267x659 image at pos (440;1092) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0037.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97dee00] Statistics: 604277 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x906 image at pos (146;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0038.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de240] Statistics: 600216 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0039.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de380] Statistics: 604977 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x906 image at pos (143;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0040.png' for reading
+[file @ 000001ffd91fd040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97de0c0] Statistics: 599112 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=   20 fps=9.4 q=-0.0 size=     512kB time=00:00:00.80 bitrate=5242.9kbits/s speed=0.376x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0041.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd97deb40] Statistics: 599112 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x898 image at pos (143;873) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0042.png' for reading
+[file @ 000001ffd91fcd40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 598368 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 320x633 image at pos (392;1116) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0043.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fd940] Statistics: 598368 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1766x899 image at pos (146;870) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0044.png' for reading
+[file @ 000001ffd91fc140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 595001 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0045.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 592573 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1754x920 image at pos (146;870) [area:2080x2080]
+frame=   25 fps=9.5 q=-0.0 size=     768kB time=00:00:01.01 bitrate=6229.2kbits/s speed=0.383x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0046.png' for reading
+[file @ 000001ffd91fc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 590473 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0047.png' for reading
+[file @ 000001ffd91fc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 590473 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x914 image at pos (145;876) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0048.png' for reading
+[file @ 000001ffd91fc740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fd940] Statistics: 590052 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 350x605 image at pos (357;1145) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0049.png' for reading
+[file @ 000001ffd91fcd40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 590052 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x922 image at pos (145;875) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0050.png' for reading
+[file @ 000001ffd91fbc40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe000] Statistics: 584468 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=   30 fps=9.5 q=-0.0 size=     768kB time=00:00:01.22 bitrate=5156.9kbits/s speed=0.385x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0051.png' for reading
+[file @ 000001ffd91fcb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fd940] Statistics: 589956 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1752x945 image at pos (148;875) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0052.png' for reading
+[file @ 000001ffd91fc240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 592423 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0053.png' for reading
+[file @ 000001ffd91fd340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 592423 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x947 image at pos (145;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0054.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe140] Statistics: 587269 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 343x589 image at pos (348;1162) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0055.png' for reading
+[file @ 000001ffd91fcd40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 587269 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x947 image at pos (144;874) [area:2080x2080]
+frame=   35 fps=9.5 q=-0.0 size=    1024kB time=00:00:01.43 bitrate=5866.2kbits/s speed=0.389x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0056.png' for reading
+[file @ 000001ffd91fd140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe280] Statistics: 590455 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0057.png' for reading
+[file @ 000001ffd91fcd40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe280] Statistics: 593044 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x932 image at pos (144;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0058.png' for reading
+[file @ 000001ffd91fd140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 591735 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0059.png' for reading
+[file @ 000001ffd91fcf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 591735 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1753x946 image at pos (148;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0060.png' for reading
+[file @ 000001ffd91fd340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 599302 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 332x682 image at pos (367;1069) [area:2080x2080]
+frame=   40 fps=9.5 q=-0.0 size=    1024kB time=00:00:01.64 bitrate=5115.0kbits/s speed=0.391x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0061.png' for reading
+[file @ 000001ffd91fcf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 599302 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1777x964 image at pos (141;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0062.png' for reading
+[file @ 000001ffd91fd140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fd940] Statistics: 612515 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0063.png' for reading
+[file @ 000001ffd91fce40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fd940] Statistics: 615061 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1777x964 image at pos (141;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0064.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdc00] Statistics: 623006 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0065.png' for reading
+[file @ 000001ffd91fcb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 623006 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x958 image at pos (146;877) [area:2080x2080]
+frame=   45 fps=9.6 q=-0.0 size=    1280kB time=00:00:01.84 bitrate=5698.8kbits/s speed=0.392x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0066.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 629602 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 237x682 image at pos (467;1070) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0067.png' for reading
+[file @ 000001ffd91fc040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 629602 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x928 image at pos (143;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0068.png' for reading
+[file @ 000001ffd91fd040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 628262 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0069.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 624643 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x893 image at pos (143;873) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0070.png' for reading
+[file @ 000001ffd91fbf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe3c0] Statistics: 633445 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=   50 fps=9.6 q=-0.0 size=    1280kB time=00:00:02.05 bitrate=5115.0kbits/s speed=0.392x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0071.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 633445 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1766x876 image at pos (146;870) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0072.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 627073 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 268x666 image at pos (440;1078) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0073.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 627073 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1754x898 image at pos (146;870) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0074.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe3c0] Statistics: 623502 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0075.png' for reading
+[file @ 000001ffd91fc740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe680] Statistics: 615466 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x894 image at pos (145;876) [area:2080x2080]
+frame=   55 fps=9.6 q=-0.0 size=    1536kB time=00:00:02.26 bitrate=5567.7kbits/s speed=0.395x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0076.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 605195 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0077.png' for reading
+[file @ 000001ffd91fc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe000] Statistics: 605195 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x915 image at pos (145;875) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0078.png' for reading
+[file @ 000001ffd91fd040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fd940] Statistics: 611028 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 300x637 image at pos (413;1114) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0079.png' for reading
+[file @ 000001ffd91fc740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe280] Statistics: 611028 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1752x915 image at pos (148;875) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0080.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe280] Statistics: 609091 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=   60 fps=9.6 q=-0.0 size=    1536kB time=00:00:02.47 bitrate=5094.3kbits/s speed=0.396x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0081.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 609702 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x923 image at pos (145;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0082.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 606058 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0083.png' for reading
+[file @ 000001ffd91fc740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe000] Statistics: 606058 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x967 image at pos (144;830) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0084.png' for reading
+[file @ 000001ffd91fc740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 604644 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 326x610 image at pos (381;1137) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0085.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 604644 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x984 image at pos (144;803) [area:2080x2080]
+frame=   65 fps=9.6 q=-0.0 size=    1792kB time=00:00:02.68 bitrate=5477.6kbits/s speed=0.397x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0086.png' for reading
+[file @ 000001ffd91fbc40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 604157 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0087.png' for reading
+[file @ 000001ffd91fd240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 610275 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1753x981 image at pos (148;803) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0088.png' for reading
+[file @ 000001ffd91fc140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 611851 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0089.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe000] Statistics: 611851 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1772x943 image at pos (141;832) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0090.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 616867 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 359x604 image at pos (348;1145) [area:2080x2080]
+frame=   70 fps=9.6 q=-0.0 size=    1792kB time=00:00:02.89 bitrate=5079.6kbits/s speed=0.398x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0091.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 616867 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1773x893 image at pos (141;878) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0092.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 614835 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0093.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 614338 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x894 image at pos (146;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0094.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 612566 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0095.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 612566 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x884 image at pos (143;877) [area:2080x2080]
+frame=   75 fps=9.6 q=-0.0 size=    2048kB time=00:00:03.09 bitrate=5429.5kbits/s speed=0.397x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0096.png' for reading
+[file @ 000001ffd91fc140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 610418 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 327x586 image at pos (356;1155) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0097.png' for reading
+[file @ 000001ffd91fc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe280] Statistics: 610418 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x873 image at pos (143;873) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0098.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdc00] Statistics: 611126 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0099.png' for reading
+[file @ 000001ffd91fbf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 608564 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1766x898 image at pos (146;870) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0100.png' for reading
+[file @ 000001ffd91fc240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 614452 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=   80 fps=9.6 q=-0.0 size=    2048kB time=00:00:03.30 bitrate=5084.0kbits/s speed=0.397x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0101.png' for reading
+[file @ 000001ffd91fd340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 614452 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1754x900 image at pos (146;870) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0102.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 610952 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 275x680 image at pos (426;1069) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0103.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdc00] Statistics: 610952 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x914 image at pos (145;876) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0104.png' for reading
+[file @ 000001ffd91fd440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe000] Statistics: 612570 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0105.png' for reading
+[file @ 000001ffd91fcb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 619425 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x915 image at pos (145;875) [area:2080x2080]
+frame=   85 fps=9.6 q=-0.0 size=    2304kB time=00:00:03.51 bitrate=5377.3kbits/s speed=0.398x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0106.png' for reading
+[file @ 000001ffd91fd740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 614984 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0107.png' for reading
+[file @ 000001ffd91fd240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 614984 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1752x922 image at pos (148;875) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0108.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 609792 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 245x681 image at pos (459;1070) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0109.png' for reading
+[file @ 000001ffd91fd240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 609792 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x923 image at pos (145;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0110.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 612187 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=   90 fps=9.6 q=-0.0 size=    2304kB time=00:00:03.72 bitrate=5073.8kbits/s speed=0.398x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0111.png' for reading
+[file @ 000001ffd91fc140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 607578 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x913 image at pos (144;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0112.png' for reading
+[file @ 000001ffd91fbb40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe140] Statistics: 608577 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0113.png' for reading
+[file @ 000001ffd91fcf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdd40] Statistics: 608577 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x910 image at pos (144;874) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0114.png' for reading
+[file @ 000001ffd91fc240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 603583 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 267x659 image at pos (440;1092) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0115.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 603583 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1753x901 image at pos (148;874) [area:2080x2080]
+frame=   95 fps=9.6 q=-0.0 size=    2560kB time=00:00:03.93 bitrate=5336.3kbits/s speed=0.398x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0116.png' for reading
+[file @ 000001ffd91fd240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 615438 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0117.png' for reading
+[file @ 000001ffd91fcc40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe540] Statistics: 622130 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1775x894 image at pos (141;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0118.png' for reading
+[file @ 000001ffd91fcc40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe140] Statistics: 632939 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0119.png' for reading
+[file @ 000001ffd91fd340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 632939 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1775x894 image at pos (141;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0120.png' for reading
+[file @ 000001ffd91fd240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fdac0] Statistics: 631124 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 320x633 image at pos (392;1116) [area:2080x2080]
+frame=  100 fps=9.6 q=-0.0 size=    2560kB time=00:00:04.14 bitrate=5065.6kbits/s speed=0.398x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0121.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 631124 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1768x884 image at pos (146;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0122.png' for reading
+[file @ 000001ffd91fbf40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe140] Statistics: 627011 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0123.png' for reading
+[file @ 000001ffd91fca40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 623177 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1767x870 image at pos (143;877) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0124.png' for reading
+[file @ 000001ffd91fc940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe000] Statistics: 617760 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0125.png' for reading
+[file @ 000001ffd91fc040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fe140] Statistics: 617760 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1769x895 image at pos (143;873) [area:2080x2080]
+frame=  105 fps=9.6 q=-0.0 size=    2816kB time=00:00:04.34 bitrate=5315.4kbits/s speed=0.398x    [image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0126.png' for reading
+[file @ 000001ffd91fce40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 621673 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 350x605 image at pos (357;1145) [area:2080x2080]
+[image2 @ 000001ffd91beb80] Opening 'D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame0127.png' for reading
+[file @ 000001ffd91fc240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ffd91fde80] Statistics: 621673 bytes read, 0 seeks
+[gif @ 000001ffd91d5340] 1766x900 image at pos (146;870) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1754x920 image at pos (146;870) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=  110 fps=9.6 q=-0.0 size=    3072kB time=00:00:04.55 bitrate=5531.0kbits/s speed=0.398x    [gif @ 000001ffd91d5340] 1768x914 image at pos (145;876) [area:2080x2080]
+[gif @ 000001ffd91d5340] 343x589 image at pos (348;1162) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1768x946 image at pos (145;851) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1752x946 image at pos (148;851) [area:2080x2080]
+frame=  115 fps=9.6 q=-0.0 size=    3072kB time=00:00:04.76 bitrate=5286.9kbits/s speed=0.398x    [gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1767x914 image at pos (145;873) [area:2080x2080]
+[gif @ 000001ffd91d5340] 332x682 image at pos (367;1069) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1769x910 image at pos (144;874) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+frame=  120 fps=9.6 q=-0.0 size=    3328kB time=00:00:04.97 bitrate=5485.5kbits/s speed=0.398x    [gif @ 000001ffd91d5340] 1769x901 image at pos (144;874) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1753x897 image at pos (148;874) [area:2080x2080]
+[gif @ 000001ffd91d5340] 237x682 image at pos (467;1070) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1761x892 image at pos (141;879) [area:2080x2080]
+frame=  125 fps=9.6 q=-0.0 size=    3328kB time=00:00:05.18 bitrate=5263.1kbits/s speed=0.399x    [gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1773x883 image at pos (141;878) [area:2080x2080]
+[gif @ 000001ffd91d5340] 1x1 image at pos (2079;2079) [area:2080x2080]
+[Parsed_paletteuse_0 @ 000001ffd91fc840] [framesync @ 000001ffe7b700c8] Sync level 0
+[out_0_0 @ 000001ffd91fc340] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=  128 fps=9.6 q=-0.0 Lsize=    3588kB time=00:00:05.30 bitrate=5545.4kbits/s speed=0.396x    
+[AVIOContext @ 000001ffd91be900] Statistics: 0 seeks, 26 writeouts
+video:3588kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000544%
+Input file #0 (D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/frame%04d.png):
+  Input stream #0:0 (video): 128 packets read (78194620 bytes); 128 frames decoded; 
+  Total: 128 packets (78194620 bytes) demuxed
+Input file #1 (D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/palette.png):
+  Input stream #1:0 (video): 1 packets read (1009 bytes); 1 frames decoded; 
+  Total: 1 packets (1009 bytes) demuxed
+Output file #0 (D:/ART/PersonalProjects/Video/animation/Guppy Bowl/Final/GuppyBowl.gif):
+  Output stream #0:0 (video): 128 frames encoded; 128 packets muxed (3673800 bytes); 
+  Total: 128 packets (3673800 bytes) muxed
+129 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001ffd91d5f40] Statistics: 0 seeks, 15 writeouts
+[AVIOContext @ 000001ffd9684e40] Statistics: 1009 bytes read, 0 seeks
